@@ -59,7 +59,8 @@ Main Page
     
     저작권의 문제가 발생할수 있다는 판단하에 아래와 같이 구현하는 방식으로 개선했습니다.
 
-![Main](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/4469deb1-e940-4209-b385-8dea7bae1a79)
+![Main](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/ddf35a59-de58-4de3-a1d3-626d7aac5d35)
+
 
 
 
@@ -112,7 +113,8 @@ Player Page ( Sportsdata.io NBA API )
 
       선수들 리스트 같은 경우도 더욱 재미있는 구현을 위해 농구 유니폼의 디자인을 따와 구현했습니다.
     
-![PlayerList](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/1ffe0c11-5a06-4c9f-9404-3d19fae82c2e)
+![PlayerList](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/57bf7c87-e33e-4a67-adb6-b835616532f6)
+
 
 
 
@@ -147,7 +149,8 @@ PlayerPlayer.js
       
       기본적으로 밋밋한 색감의 틀을 구현해두고 API 데이터를 통한 렌덩링 될때 애니메이션을 넣어 좀 더 생동감 있는 구현을 했습니다.
                                                                          
- ![PlayerDetail](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/ed100e28-6e12-489e-905e-ffddb0ef9c9b)
+![PlayerDetail](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/33609823-84ea-4c60-9e90-26800bd18580)
+
 
        
 PlayerInfo.js
@@ -175,7 +178,8 @@ NBA의 최신 영상과 팀별 영상을 볼 수 있는 페이지 입니다.
 
     사용한 API인 Youtube의 ui를 최대한 카피하며 기능하도록 구현해봤습니다. 
 
-![VideoList](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/cd177122-9387-4340-a987-06f3e43076af)
+![VideoList](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/d0b72147-d0c2-4c8c-bd03-e679807ec596)
+
 
 VideoCategory.js
 
@@ -204,7 +208,8 @@ VideoList.js
 
     영상을 클릭하면 useNavigate를 통해 url에 params 설정과 props를 통해 VideoPlayer에 영상정보 전달
 
-![VideoPlayer](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/511dd11d-f17c-48a8-9359-bac7c3194bc2)
+![VideoPlayer](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/3254215d-a2bd-4d9f-8565-ca7514d935ae)
+
 
 VideoPlayer.js
 
@@ -234,7 +239,8 @@ NBA의 최신 뉴스를 볼 수 있는 페이지 입니다.
 
       허나 이 API에선 특별한 Endpoint 없이 최신의 6개의 Article들 만을 제공하기에, 이 6개의 Article들을 가지고 재밌게 구현해봤습니다.
 
-![NewsArticle](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/0be55ff0-5a41-4b1d-bd7e-23bf3633b1ed)
+![NewsArticle](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/c287ceb1-1f66-42f8-b9d9-7a3003a3d026)
+
 
 NewsList.js
 
@@ -284,8 +290,8 @@ Arena Page ( Google Map Api )
     
     Marker, InfoWindow 같은 기능들을 최대한 활용해 동적으로 개발 했습니다.
     
+![Arena](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/ea6fb7ce-3a61-4d65-a075-46b7ecff6e17)
 
-![Arena](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/c9fe30f7-5146-4f54-bd2a-164af7d0777c)
 
 
 ArenaCategory.js
@@ -330,7 +336,8 @@ click시 상단으로 이동하는 button을 페이지 컨셉에 맞게 구현�
     
     초기의 웹페이지의 레이아웃에선 모든 페이지에 import해서 사용했지만 UI의 변경으로 현재는 Player 페이지에서만 사용중 입니다.
 
-![goUp](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/3f1303f6-7e10-4dc5-afcf-99ef0ce5472c)
+![goUp](https://github.com/ontothenextlevel/Basketball-Info/assets/119983922/fe7b8c9b-38dd-4394-a94f-c08381e87cec)
+
 
 GoUpButton.js
 
