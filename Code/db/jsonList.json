@@ -1,0 +1,634 @@
+{
+  "TeamList": [
+    {
+      "Id": 3,
+      "Key": "ATL",
+      "Name": "Atlanta Hawks",
+      "Abbreviation": "ATL",
+      "Conference": "East",
+      "Division": "Southeast",
+      "Arena": "State Farm Arena",
+      "Position": {
+        "lat": 33.75748087855162,
+        "lng": -84.39634585784611
+      },
+      "Color": {
+        "base": "000000",
+        "name": "FDB927",
+        "number": "FDB927",
+        "border": "C8102E",
+        "arm": "C8102E",
+        "neck": "C8102E"
+      }
+    },
+    {
+      "Id": 9,
+      "Key": "BOS",
+      "Name": "Boston Celtics",
+      "Abbreviation": "BOS",
+      "Conference": "East",
+      "Division": "Atlantic",
+      "Arena": "TD Garden",
+      "Position": {
+        "lat": 42.36639615469699,
+        "lng": -71.06210308682549
+      },
+      "Color": {
+        "base": "008348",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "FFFFFF",
+        "arm": "FFFFFF",
+        "neck": "008348"
+      }
+    },
+    {
+      "Id": 8,
+      "Key": "BKN",
+      "Name": "Brooklyn Nets",
+      "Abbreviation": "BKN",
+      "Conference": "East",
+      "Division": "Atlantic",
+      "Arena": "Barclays Center",
+      "Position": {
+        "lat": 40.682817335486774,
+        "lng": -73.9754156022106
+      },
+      "Color": {
+        "base": "000000",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "FFFFFF",
+        "arm": "FFFFFF",
+        "neck": "000000"
+      }
+    },
+    {
+      "Id": 2,
+      "Key": "CHA",
+      "Name": "Charlotte Hornets",
+      "Abbreviation": "CHA",
+      "Conference": "East",
+      "Division": "Southeast",
+      "Arena": "Spectrum Center",
+      "Position": {
+        "lat": 35.22525705181243,
+        "lng": -80.83938037350704
+      },
+      "Color": {
+        "base": "00788C",
+        "name": "FFFFFF",
+        "number": "1D1160",
+        "border": "1D1160",
+        "arm": "00788C",
+        "neck": "1D1160"
+      }
+    },
+    {
+      "Id": 11,
+      "Key": "CHI",
+      "Name": "Chicago Bulls",
+      "Abbreviation": "CHI",
+      "Conference": "East",
+      "Division": "Central",
+      "Arena": "United Center",
+      "Position": {
+        "lat": 41.88082657526211,
+        "lng": -87.67416517334406
+      },
+      "Color": {
+        "base": "CE1141",
+        "name": "000000",
+        "number": "000000",
+        "border": "FFFFFF",
+        "arm": "FFFFFF",
+        "neck": "CE1141"
+      }
+    },
+    {
+      "Id": 12,
+      "Key": "CLE",
+      "Name": "Cleveland Cavaliers",
+      "Abbreviation": "CLE",
+      "Conference": "East",
+      "Division": "Central",
+      "Arena": "Rocket Mortgage FieldHouse",
+      "Position": {
+        "lat": 41.496667916916195,
+        "lng": -81.68805740218939
+      },
+      "Color": {
+        "base": "860038",
+        "name": "FDBB30",
+        "number": "000000",
+        "border": "FDBB30",
+        "arm": "000000",
+        "neck": "000000"
+      }
+    },
+    {
+      "Id": 25,
+      "Key": "DAL",
+      "Name": "Dallas Mavericks",
+      "Abbreviation": "DAL",
+      "Conference": "West",
+      "Division": "Southwest",
+      "Arena": "American Airlines Center",
+      "Position": {
+        "lat": 32.790426670559754,
+        "lng": -96.81025612812013
+      },
+      "Color": {
+        "base": "0064B1",
+        "name": "FFFFFF",
+        "number": "BBC4CA",
+        "border": "FFFFFF",
+        "arm": "00285E",
+        "neck": "00285E"
+      }
+    },
+    {
+      "Id": 20,
+      "Key": "DEN",
+      "Name": "Denver Nuggets",
+      "Abbreviation": "DEN",
+      "Conference": "West",
+      "Division": "Northwest",
+      "Arena": "Ball Arena",
+      "Position": {
+        "lat": 39.748661763649366,
+        "lng": -105.00760409391162
+      },
+      "Color": {
+        "base": "0E2240",
+        "name": "FEC524",
+        "number": "FFFFFF",
+        "border": "8B2131",
+        "arm": "FFFFFF",
+        "neck": "0E2240"
+      }
+    },
+    {
+      "Id": 14,
+      "Key": "DET",
+      "Name": "Detroit Pistons",
+      "Abbreviation": "DET",
+      "Conference": "East",
+      "Division": "Central",
+      "Arena": "Little Caesars Arena",
+      "Position": {
+        "lat": 42.341106644059124,
+        "lng": -83.05527052211737
+      },
+      "Color": {
+        "base": "1D428A",
+        "name": "BEC0C2",
+        "number": "C8102E",
+        "border": "BEC0C2",
+        "arm": "C8102E",
+        "neck": "C8102E"
+      }
+    },
+    {
+      "Id": 26,
+      "Key": "GS",
+      "Name": "Golden State Warriors",
+      "Abbreviation": "GSW",
+      "Conference": "West",
+      "Division": "Pacific",
+      "Arena": "Chase Center",
+      "Position": {
+        "lat": 37.768044761924614,
+        "lng": -122.3877162495493
+      },
+      "Color": {
+        "base": "1D428A",
+        "name": "FDB927",
+        "number": "FDB927",
+        "border": "FDB927",
+        "arm": "FDB927",
+        "neck": "FDB927"
+      }
+    },
+    {
+      "Id": 22,
+      "Key": "HOU",
+      "Name": "Houston Rockets",
+      "Abbreviation": "HOU",
+      "Conference": "West",
+      "Division": "Southwest",
+      "Arena": "Toyota Center",
+      "Position": {
+        "lat": 29.750769696686476,
+        "lng": -95.36208977361935
+      },
+      "Color": {
+        "base": "CE1141",
+        "name": "ffffff",
+        "number": "ffffff",
+        "border": "ffffff",
+        "arm": "000000",
+        "neck": "000000"
+      }
+    },
+    {
+      "Id": 13,
+      "Key": "IND",
+      "Name": "Indiana Pacers",
+      "Abbreviation": "IND",
+      "Conference": "East",
+      "Division": "Central",
+      "Arena": "Gainbridge Fieldhouse",
+      "Position": {
+        "lat": 39.76405162654585,
+        "lng": -86.15552597339892
+      },
+      "Color": {
+        "base": "E8E8E8",
+        "name": "002D62",
+        "number": "002D62",
+        "border": "FDBB30",
+        "arm": "FDBB30",
+        "neck": "002D62"
+      }
+    },
+    {
+      "Id": 28,
+      "Key": "LAC",
+      "Name": "LA Clippers",
+      "Abbreviation": "LAC",
+      "Conference": "West",
+      "Division": "Pacific",
+      "Arena": "Crypto.com Arena",
+      "Position": {
+        "lat": 34.04301748061282,
+        "lng": -118.26724337353299
+      },
+      "Color": {
+        "base": "1D428A",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "FFFFFF",
+        "arm": "1D428A",
+        "neck": "C8102E"
+      }
+    },
+    {
+      "Id": 27,
+      "Key": "LAL",
+      "Name": "LA Lakers",
+      "Abbreviation": "LAL",
+      "Conference": "West",
+      "Division": "Pacific",
+      "Arena": "Crypto.com Arena",
+      "Position": {
+        "lat": 34.04301748061282,
+        "lng": -118.26724337353299
+      },
+      "Color": {
+        "base": "FDB927",
+        "name": "552583",
+        "number": "552583",
+        "border": "FFFFFF",
+        "arm": "552583",
+        "neck": "552583"
+      }
+    },
+    {
+      "Id": 21,
+      "Key": "MEM",
+      "Name": "Memphis Grizzlies",
+      "Abbreviation": "MEM",
+      "Conference": "West",
+      "Division": "Southwest",
+      "Arena": "FedEx Forum",
+      "Position": {
+        "lat": 35.13812423295626,
+        "lng": -90.05058640234417
+      },
+      "Color": {
+        "base": "5D76A9",
+        "name": "12173F",
+        "number": "12173F",
+        "border": "12173F",
+        "arm": "5D76A9",
+        "neck": "12173F"
+      }
+    },
+    {
+      "Id": 4,
+      "Key": "MIA",
+      "Name": "Miami Heat",
+      "Abbreviation": "MIA",
+      "Conference": "East",
+      "Division": "Southeast",
+      "Arena": "FTX Arena",
+      "Position": {
+        "lat": 25.78140138363308,
+        "lng": -80.18696900252293
+      },
+      "Color": {
+        "base": "000000",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "98002E",
+        "arm": "98002E",
+        "neck": "000000"
+      }
+    },
+    {
+      "Id": 15,
+      "Key": "MIL",
+      "Name": "Milwaukee Bucks",
+      "Abbreviation": "MIL",
+      "Conference": "East",
+      "Division": "Central",
+      "Arena": "Fiserv Forum",
+      "Position": {
+        "lat": 43.045095860777096,
+        "lng": -87.91739693098305
+      },
+      "Color": {
+        "base": "00471B",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "EEE1C6",
+        "arm": "EEE1C6",
+        "neck": "EEE1C6"
+      }
+    },
+    {
+      "Id": 16,
+      "Key": "MIN",
+      "Name": "Minnesota Timberwolves",
+      "Abbreviation": "MIN",
+      "Conference": "West",
+      "Division": "Northwest",
+      "Arena": "Target Center",
+      "Position": {
+        "lat": 44.979448100796894,
+        "lng": -93.2760839732588
+      },
+      "Color": {
+        "base": "0C2340",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "236192",
+        "arm": "0C2340",
+        "neck": "236192"
+      }
+    },
+    {
+      "Id": 23,
+      "Key": "NO",
+      "Name": "New Orleans Pelicans",
+      "Abbreviation": "NOP",
+      "Conference": "West",
+      "Division": "Southwest",
+      "Arena": "Smoothie King Center",
+      "Position": {
+        "lat": 29.94902578570917,
+        "lng": -90.08206753128599
+      },
+      "Color": {
+        "base": "002B5C",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "B4975A",
+        "arm": "E31837",
+        "neck": "B4975A"
+      }
+    },
+    {
+      "Id": 6,
+      "Key": "NY",
+      "Name": "New York Knicks",
+      "Abbreviation": "NYK",
+      "Conference": "East",
+      "Division": "Atlantic",
+      "Arena": "Madison Square Garden",
+      "Position": {
+        "lat": 40.75051260705975,
+        "lng": -73.99343870220882
+      },
+      "Color": {
+        "base": "E8E8E8",
+        "name": "006BB6",
+        "number": "F58426",
+        "border": "006BB6",
+        "arm": "F58426",
+        "neck": "F58426"
+      }
+    },
+    {
+      "Id": 18,
+      "Key": "OKC",
+      "Name": "Oklahoma City Thunder",
+      "Abbreviation": "OKC",
+      "Conference": "West",
+      "Division": "Northwest",
+      "Arena": "Paycom Center",
+      "Position": {
+        "lat": 35.46344215722233,
+        "lng": -97.51513526000731
+      },
+      "Color": {
+        "base": "007AC1",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "EF3B24",
+        "arm": "EF3B24",
+        "neck": "FDBB30"
+      }
+    },
+    {
+      "Id": 5,
+      "Key": "ORL",
+      "Name": "Orlando Magic",
+      "Abbreviation": "ORL",
+      "Conference": "East",
+      "Division": "Southeast",
+      "Arena": "Amway Center",
+      "Position": {
+        "lat": 28.539240232813782,
+        "lng": -81.38384277364139
+      },
+      "Color": {
+        "base": "000000",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "0077C0",
+        "arm": "0077C0",
+        "neck": "0077C0"
+      }
+    },
+    {
+      "Id": 7,
+      "Key": "PHI",
+      "Name": "Philadelphia 76ers",
+      "Abbreviation": "PHI",
+      "Conference": "East",
+      "Division": "Atlantic",
+      "Arena": "Wells Fargo Center",
+      "Position": {
+        "lat": 39.90120147943231,
+        "lng": -75.17193658688984
+      },
+      "Color": {
+        "base": "002B5C",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "ED174C",
+        "arm": "ED174C",
+        "neck": "ED174C"
+      }
+    },
+    {
+      "Id": 29,
+      "Key": "PHO",
+      "Name": "Phoenix Suns",
+      "Abbreviation": "PHX",
+      "Conference": "West",
+      "Division": "Pacific",
+      "Arena": "Footprint Center",
+      "Position": {
+        "lat": 33.44575488523456,
+        "lng": -112.07120030238094
+      },
+      "Color": {
+        "base": "1D1160",
+        "name": "BEC0C2",
+        "number": "E56020",
+        "border": "BEC0C2",
+        "arm": "E56020",
+        "neck": "E56020"
+      }
+    },
+    {
+      "Id": 19,
+      "Key": "POR",
+      "Name": "Portland Trail Blazers",
+      "Abbreviation": "POR",
+      "Conference": "West",
+      "Division": "Northwest",
+      "Arena": "Moda Center",
+      "Position": {
+        "lat": 45.53157259482798,
+        "lng": -122.66684230207818
+      },
+      "Color": {
+        "base": "E03A3E",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "000000",
+        "arm": "E03A3E",
+        "neck": "E03A3E"
+      }
+    },
+    {
+      "Id": 30,
+      "Key": "SAC",
+      "Name": "Sacramento Kings",
+      "Abbreviation": "SAC",
+      "Conference": "West",
+      "Division": "Pacific",
+      "Arena": "Golden 1 Center",
+      "Position": {
+        "lat": 38.58020447962486,
+        "lng": -121.49966020226351
+      },
+      "Color": {
+        "base": "5A2B81",
+        "name": "FFFFFF",
+        "number": "FFFFFF",
+        "border": "63727A",
+        "arm": "63727A",
+        "neck": "63727A"
+      }
+    },
+    {
+      "Id": 24,
+      "Key": "SA",
+      "Name": "San Antonio Spurs",
+      "Abbreviation": "SAS",
+      "Conference": "West",
+      "Division": "Southwest",
+      "Arena": "AT&T Center",
+      "Position": {
+        "lat": 29.4270387713646,
+        "lng": -98.43746520246053
+      },
+      "Color": {
+        "base": "8A8D8F",
+        "name": "000000",
+        "number": "000000",
+        "border": "FFFFFF",
+        "arm": "000000",
+        "neck": "000000"
+      }
+    },
+    {
+      "Id": 10,
+      "Key": "TOR",
+      "Name": "Toronto Raptors",
+      "Abbreviation": "TOR",
+      "Conference": "East",
+      "Division": "Atlantic",
+      "Arena": "Scotiabank Arena",
+      "Position": {
+        "lat": 43.643450551311325,
+        "lng": -79.37909890213143
+      },
+      "Color": {
+        "base": "000000",
+        "name": "A1A1A4",
+        "number": "CE1141",
+        "border": "A1A1A4",
+        "arm": "CE1141",
+        "neck": "CE1141"
+      }
+    },
+    {
+      "Id": 17,
+      "Key": "UTA",
+      "Name": "Utah Jazz",
+      "Abbreviation": "UTA",
+      "Conference": "West",
+      "Division": "Northwest",
+      "Arena": "Vivint Arena",
+      "Position": {
+        "lat": 40.76826807932958,
+        "lng": -111.90107667337318
+      },
+      "Color": {
+        "base": "E8E8E8",
+        "name": "002B5C",
+        "number": "00471B",
+        "border": "00471B",
+        "arm": "002B5C",
+        "neck": "002B5C"
+      }
+    },
+    {
+      "Id": 1,
+      "Key": "WAS",
+      "Name": "Washington Wizards",
+      "Abbreviation": "WAS",
+      "Conference": "East",
+      "Division": "Southeast",
+      "Arena": "Capital One Arena",
+      "Position": {
+        "lat": 38.89815077985568,
+        "lng": -77.0208568022557
+      },
+      "Color": {
+        "base": "002B5C",
+        "name": "FFFFFF",
+        "number": "E31837",
+        "border": "FFFFFF",
+        "arm": "FFFFFF",
+        "neck": "E31837"
+      }
+    }
+  ]
+}
